@@ -1,53 +1,118 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-/* Create two equal columns that floats next to each other */
-.column-left {
-  float: left;
-  width: 60%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
+        /* Create two equal columns that floats next to each other */
 
-.column-right {
-  float: left;
-  width: 40%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
+        .column-left {
+            float: left;
+            width: 55%;
+            padding: 10px;
+            height: 300px;
+            /* Should be removed. Only for demonstration */
+        }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
+        .column-right {
+            float: left;
+            width: 45%;
+            padding: 10px;
+            height: 300px;
+            background-color:#bbb;
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .services {
+            color: purple;
+        }
+        
+        .position {
+            font-weight: bold;
+        }
+    </style>
 </head>
-<body>
 
-<h2>HUANG Kunlun CV</h2>
-<p>Kunlun Huang (黄坤伦)</p>
-Guangzhou Environmental Monitoring Center - Air Quality Supervisor
-<p>Guangzhou, Guangdong, China </p>
-<div class="row">
-  <div class="column-left">
-    <h3>Experiences</h3>
-    <p>Some text..</p>
-    <h3>Educations</h3>
-    <p>Some text..</p>
-  </div>
-  <div class="column-right" style="background-color:#bbb;">
-    <h2>Certifications</h2>
-    <p>Some text..</p>
-  </div>
-</div>
+<body>
+    <h2>HUANG Kunlun CV</h2>
+    <p>Guangzhou, Guangdong, China </p>
+    <button>kl.h <i>at</i> my.cityu.edu.hk</button>
+    <div class="row">
+        <div class="column-left">
+            <hr style="color:purple;">
+            <h3>Experiences</h3>
+            <div>
+                <p class="position">Air Quality Supervisor</p>
+                <p class="services">Guangzhou Environmental Monitoring Center</p>
+                <p>Dec 2020 - Ongoing</p>
+            </div>
+            <hr>
+            <div>
+                <p class="position">Support Engineer</p>
+                <p class="services">Telefonaktiebolaget LM Ericsson</p>
+                <p>Mar 2020 - Dec 2020</p>
+            </div>
+            <hr>
+            <div>
+                <p class="position">Network Engineer</p>
+                <p class="services">Artisan Technologies</p>
+                <p>Feb 2018 - Jan 2020</p>
+            </div>
+            <hr>
+            <div>
+                <p class="position">Cloud Computing Engineer</p>
+                <p class="services">China Unicom Guangdong Branch</p>
+                <p>Jul 2017 - Feb 2018</p>
+            </div>
+            
+        </div>
+        <div class="column-right">
+            <h3>Educations</h3>
+            <div>
+                <p class="position">M.SC in Computer Science</p>
+                <p class="services">City University of Hong Kong</p>
+                <p>Sep 2023 - Jun 2024 (expected)</p>
+            </div>
+            <hr>
+            <div>
+                <p class="position">B.ENG in Network Engineering</p>
+                <p class="services">Jinan University</p>
+                <p>Sep 2013 - Jun 2017</p>
+            </div>
+            <hr style="color:purple">
+            <h3>Certifications (Partial)</h3>
+            <div>
+                <li>MIIT Certified Senior Engineer in Nework Engineering</li>
+                <li>Linux Foundation Certifeied System Admin</li>
+
+                <li>Certified Kubernetes Administrator</li>
+
+                <li>Ericsson Certified Associate - Ericsson Cloud</li>
+
+            </div>
+            <hr style="color:purple;">
+            <h3>Languages</h3>
+            <div>
+                <li>Chinese - Native</li>
+                <li>Cantonese - Native</li>
+                <li>English -  Working proficiency</li>
+
+            </div>
+        </div>
+    </div>
 
 </body>
+
 </html>
