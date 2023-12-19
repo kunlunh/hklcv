@@ -14,7 +14,6 @@
             float: left;
             width: 55%;
             padding: 10px;
-            height: 300px;
             /* Should be removed. Only for demonstration */
         }
 
@@ -22,7 +21,6 @@
             float: left;
             width: 45%;
             padding: 10px;
-            height: 300px;
             background-color:#bbb;
             /* Should be removed. Only for demonstration */
         }
@@ -42,14 +40,30 @@
         .position {
             font-weight: bold;
         }
+        .porjectprovider {
+            color:rgb(77, 6, 143);
+        }
+
+        .header {
+            padding: 10px;
+        }
     </style>
 </head>
 
 <body>
+    <div class="header">
     <h2>HUANG Kunlun CV</h2>
-    <p>Guangzhou, Guangdong, China </p>
     <button>kl.h <i>at</i> my.cityu.edu.hk</button>
-    <div class="row">
+    <a href="https://www.linkedin.com/in/huangkunlun">
+    <button><i>Linkedin</i></button></a>
+    <a href="https://www.github.com/kunlunh"><button><i>Github</i></button></a>
+    <a href="https://vnf.cc/"><button><i>Blog</i></button></a>
+    
+
+    <p>Certifies Kubernetes Administrator, Certified Network Planner & Designer, Linux Foundation Certified System Administrator, Ericsson ETCP, former China Unicom Cloud Compute Engineer, former Ericsson Core Network Engineer, Current Staff of Public Institution in Guangzhou</p>
+    </div>
+
+    <div class="row" style="padding: 10px;">
         <div class="column-left">
             <hr style="color:purple;">
             <h3>Experiences</h3>
@@ -76,7 +90,22 @@
                 <p class="services">China Unicom Guangdong Branch</p>
                 <p>Jul 2017 - Feb 2018</p>
             </div>
-            
+            <hr style="color:purple">
+            <h3>Projects</h3>
+            <div>
+                <p class="projectname">典型园区VOCs排放监测系统集成及应用示范
+                </p>
+                <p class="porjectprovider">科技部 - 国家重点研发计划</p>
+                <p>Nov 2022 - Ongoing</p>
+            </div>
+            <hr>
+            <div>
+                <p class="projectname">我国东部大气活性氮化合物收支及其对PM<sub>2.5</sub>和臭氧污染形成的作用机制
+                </p>
+                <p class="porjectprovider">科技部 - 国家重点研发计划</p>
+                <p>Nov 2022 - Ongoing</p>
+            </div>
+
         </div>
         <div class="column-right">
             <h3>Educations</h3>
@@ -112,7 +141,7 @@
             </div>
         </div>
     </div>
-
+<footer style="padding: 10px;">All right reserved @ 2023 by HUANG Kunlun</footer>
 </body>
 
 </html>
